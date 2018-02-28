@@ -14,5 +14,7 @@ def line(arr)
   end
 end
 
-def take_a_number(arr)
+def take_a_number(arr, str)
+  arr.push(str)
+  puts "Welcome, #{str}. You are number #{arr.size} in line."
 end
