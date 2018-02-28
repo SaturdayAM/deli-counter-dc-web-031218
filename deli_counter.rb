@@ -6,4 +6,5 @@ def line(arr)
     puts arr.inspect
   else
     puts "The line is currently empty."
+  end
 end
