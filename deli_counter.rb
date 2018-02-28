@@ -6,7 +6,8 @@ def line(arr)
     temp = "The line is currently: "
     i = 1
     arr.each do |person|
-      temp += "#{i}. #{person}"
+      temp += "#{i}. #{person} "
+      i+=1
     end
     puts temp
   else
